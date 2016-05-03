@@ -21,8 +21,7 @@ https://www.python.org/downloads/
 Zum Zeitpunkt der Erstellung dieser Installationsanleitung ist die
 Version 3.5.1 die Aktuellste.
 
-![](media/Python_1.png){width="6.2972222222222225in"
-height="4.435416666666667in"}
+![](media/Python_1.PNG)
 
 Nachdem der Installer von eurem Browser erfolgreich heruntergeladen
 wurde könnt ihr diesen mit einem Doppelklick ausführen.
@@ -31,8 +30,7 @@ Wichtig ist, dass ihr den Hacken für das Setzen der
 PATH-Systemvariablen. Dies nimmt uns bei der Installation der
 Entwicklungsumgebung PyCharm viel Arbeit ab.
 
-![](media/Python_2.png){width="6.2972222222222225in"
-height="3.9006944444444445in"}
+![](media/Python_2.PNG)
 
 Führt den Installer anschließend mit den Standardeinstellungen aus.
 
@@ -55,8 +53,7 @@ https://www.jetbrains.com/pycharm/
 Wichtig ist, dass ihr die Community Edition herunterladet. Der folgende
 Screenshot zeigt wo ihr klicken müsst:
 
-![](media/PyCharm_1.png){width="6.2868055555555555in"
-height="4.158333333333333in"}
+![](media/PyCharm_1.png)
 
 Nachdem euer Browser den Installer erfolgreich runtergeladen hat könnt
 ihr diesen mit einem Doppelklick ausführen.
@@ -65,8 +62,7 @@ Ihr könnt die Installation mit den Standardeinstellungen durchführen.
 Wichtig ist nur, dass ihr eine Desktop-Icon anlegen und die Dateiendung
 .py mit PyCharm verbinden lasst.
 
-![](media/PyCharm_2.png){width="5.267361111111111in"
-height="4.069444444444445in"}
+![](media/PyCharm_2.png)
 
 Das wars! Jetzt ist alles vorbereitet. Wie das genau geht erfahrt ihr im
 Kurs. Viel Spaß!
