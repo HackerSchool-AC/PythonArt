@@ -1,5 +1,4 @@
-Einrichtung einer Entwicklungsumgebung für das Programmieren mit
-Python
+Einrichtung einer Entwicklungsumgebung für das Programmieren mit Python
 ======
 
 Für das Programmieren mit Python ist es notwendig einige Programme zu
