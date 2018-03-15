@@ -25,7 +25,7 @@ Die Turtle bewegt sich um die Strecke *distance* (in Pixel) rückwärts.
 **left(angle)**  
 Die Turtle dreht sich um den Winkel *angle* nach links. 
 
-**right(angel)**  
+**right(angle)**  
 Die Turtle dreht sich um den Winkel *angle* nach rechts. 
 
 **goto(x, y)**  
@@ -47,7 +47,7 @@ Hebt den Zeichenstift an. Es wird nicht gezeichnet, wenn der Turtle sich bewegt
 Setzt die Strichdicke auf *width* Pixel
 
 **pencolor(color)**  
-Setzt die Füllfarbe mit der Farbe *color*
+Setzt die Füllfarbe mit der Farbe *color* (z.B. "red", "blue", "green", ...)
 
 **fillcolor(color)**  
 Setzt die Zeichenfarbe mit der Farbe *color*
@@ -64,6 +64,15 @@ Zustand der Turtle
 
 **shape(name)**  
 Setzt die Gestalt der Turtle auf die Gestalt mit dem Namen *name*. Es sind möglich: “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”
+
+Eigenschaften des Turtle-Fensters
+=======
+
+**Screen().bgcolor(color)**
+Setzt die Hintergrundfarbe auf *color*
+
+**Screen().exitonclick()**
+Beendet das Programm, wenn auf das Turtle-Fenster geklickt wird.
 
 Weitere nützliche Funktionen
 =======
