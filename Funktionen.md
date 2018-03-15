@@ -68,10 +68,10 @@ Setzt die Gestalt der Turtle auf die Gestalt mit dem Namen *name*. Es sind mögl
 Eigenschaften des Turtle-Fensters
 =======
 
-**Screen().bgcolor(color)**
+**Screen().bgcolor(color)**  
 Setzt die Hintergrundfarbe auf *color*
 
-**Screen().exitonclick()**
+**Screen().exitonclick()**  
 Beendet das Programm, wenn auf das Turtle-Fenster geklickt wird.
 
 Weitere nützliche Funktionen
