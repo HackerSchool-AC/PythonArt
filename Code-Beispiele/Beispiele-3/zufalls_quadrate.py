@@ -1,15 +1,15 @@
 import random
-import turtle
+from turtle import *
 
-tina = turtle.Turtle(shape="turtle")
+shape("turtle")
 
 def quadrat(seite, farbe):
-    tina.fillcolor(farbe)
-    tina.begin_fill()
+    fillcolor(farbe)
+    begin_fill()
     for _ in range(4):
-        tina.forward(seite)
-        tina.right(90)
-    tina.end_fill()
+        forward(seite)
+        right(90)
+    end_fill()
 
 def farbeZufall():
     farben = ["red", "blue", "yellow", "green", "brown", "pink"]
@@ -18,16 +18,16 @@ def farbeZufall():
 def zeichneQuadrate(anzahl, seite):
     if anzahl > 0:
         quadrat(seite, farbeZufall())
-        tina.penup()
-        tina.left(90)
-        tina.forward(seite * 0.3)
-        tina.left(90)
-        tina.forward(seite * 0.3)
-        tina.left(180)
-        tina.pendown()
-        tina.left(10)
+        penup()
+        left(90)
+        forward(seite * 0.3)
+        left(90)
+        forward(seite * 0.3)
+        left(180)
+        pendown()
+        left(10)
         zeichneQuadrate(anzahl - 1, seite * 0.95)
 
 zeichneQuadrate(50, 200)
 
-turtle.Screen().exitonclick()
+Screen().exitonclick()

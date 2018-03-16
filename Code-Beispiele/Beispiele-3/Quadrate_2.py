@@ -1,35 +1,35 @@
-import turtle
+from turtle import *
 
-tina = turtle.Turtle(shape="turtle")
-turtle.tracer(False)
+shape("turtle")
+tracer(False)
 
 def quadrat(seite, farbe):
-    position = tina.position()
-    tina.penup()
+    pos = position()
+    penup()
 
-    tina.forward(seite / 2)
-    tina.right(90)
-    tina.forward(seite / 2)
+    forward(seite / 2)
+    right(90)
+    forward(seite / 2)
 
-    tina.fillcolor(farbe)
-    tina.begin_fill()
-    tina.pensize(2)
-    tina.pendown()
+    fillcolor(farbe)
+    begin_fill()
+    pensize(2)
+    pendown()
     for i in range(4):
-        tina.right(90)
-        tina.forward(seite)
-    tina.end_fill()
+        right(90)
+        forward(seite)
+    end_fill()
 
-    tina.penup()
-    tina.setposition(position)
+    penup()
+    setposition(pos)
 
-seite = turtle.numinput("Quadrate", "Wie groß soll das größte Quadrat sein?")
-aenderung = turtle.numinput("Quadrate", "Wie viel kleiner sollen die Quadrate werden?")
-winkel = turtle.numinput("Quadrate", "Um welchen Winkel sollen die Quadrate gedreht werden?")
+seite = numinput("Quadrate", "Wie groß soll das größte Quadrat sein?")
+aenderung = numinput("Quadrate", "Wie viel kleiner sollen die Quadrate werden?")
+winkel = numinput("Quadrate", "Um welchen Winkel sollen die Quadrate gedreht werden?")
 
 while seite > 10:
     quadrat(seite, "red")
     seite = seite - aenderung
-    tina.right(winkel)
+    right(winkel)
 
-turtle.Screen().exitonclick()
+Screen().exitonclick()

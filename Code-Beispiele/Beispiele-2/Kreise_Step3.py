@@ -1,26 +1,26 @@
 # 4 kreise ineinander in unterschiedlichen Farben
 # Step 2: Variablen für Winkel, Seitenlänge und Farbe
 
-import turtle
+from turtle import *
 
-tina = turtle.Turtle(shape='turtle')
-scr = turtle.Screen()
-scr.bgcolor("white")
+shape("turtle")
 
-tina.penup()
-tina.goto(0, -270)
-tina.pendown()
+Screen().bgcolor("white")
+
+penup()
+goto(0, -270)
+pendown()
 
 radius = 350
 x = 255/255.
 y = 0/255.
 
 def kreis(radius, farbe):
-    tina.pencolor(farbe)
-    tina.fillcolor(farbe)
-    tina.begin_fill()
-    tina.circle(radius)
-    tina.end_fill()
+    pencolor(farbe)
+    fillcolor(farbe)
+    begin_fill()
+    circle(radius)
+    end_fill()
 
 # kreis 1
 radius = radius - 75
@@ -41,7 +41,7 @@ kreis(radius, farbe)
 radius = radius - 75
 farbe = (x, y, x)
 kreis(radius, farbe)
-tina.end_fill()
+end_fill()
 
 
-scr.exitonclick()
+Screen().exitonclick()

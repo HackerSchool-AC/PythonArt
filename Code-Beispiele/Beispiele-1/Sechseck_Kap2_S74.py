@@ -1,26 +1,26 @@
-import turtle
+from turtle import *
 
-tina = turtle.Turtle(shape='turtle')
-scr = turtle.Screen()
-scr.bgcolor("white")
+shape("turtle")
 
-tina.pensize(3)
+Screen().bgcolor("white")
+
+pensize(3)
 
 seitenLaenge = 100
 
-tina.left(90)
-tina.penup()
-tina.forward(seitenLaenge)
-tina.right(120)
+left(90)
+penup()
+forward(seitenLaenge)
+right(120)
 
-tina.pendown()
+pendown()
 for _ in range(6):
-    tina.forward(seitenLaenge)
-    tina.right(60)
+    forward(seitenLaenge)
+    right(60)
 
-tina.penup()
-tina.right(60)
-tina.forward(seitenLaenge)
-tina.right(180)
+penup()
+right(60)
+forward(seitenLaenge)
+right(180)
 
-scr.exitonclick()
+Screen().exitonclick()

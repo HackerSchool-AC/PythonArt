@@ -1,15 +1,15 @@
 # 4 Quadrate ineinander in unterschiedlichen Farben
 # Step 2: Variablen für Winkel, Seitenlänge und Farbe
 
-import turtle
+from turtle import *
 
-tina = turtle.Turtle(shape='turtle')
-scr = turtle.Screen()
-scr.bgcolor("white")
+shape("turtle")
 
-tina.penup()
-tina.goto(-150, -150)
-tina.pendown()
+Screen().bgcolor("white")
+
+penup()
+goto(-150, -150)
+pendown()
 
 seite = 375
 winkel = 90
@@ -17,18 +17,18 @@ x = 255/255.
 y = 0/255.
 
 def quadrat(seite, farbe):
-    tina.pencolor(farbe)
-    tina.fillcolor(farbe)
-    tina.begin_fill()
-    tina.forward(seite)
-    tina.left(winkel)
-    tina.forward(seite)
-    tina.left(winkel)
-    tina.forward(seite)
-    tina.left(winkel)
-    tina.forward(seite)
-    tina.left(winkel)
-    tina.end_fill()
+    pencolor(farbe)
+    fillcolor(farbe)
+    begin_fill()
+    forward(seite)
+    left(winkel)
+    forward(seite)
+    left(winkel)
+    forward(seite)
+    left(winkel)
+    forward(seite)
+    left(winkel)
+    end_fill()
 
 # Quadrat 1
 seite = seite - 75
@@ -49,7 +49,7 @@ quadrat(seite, farbe)
 seite = seite - 75
 farbe = (x, y, x)
 quadrat(seite, farbe)
-tina.end_fill()
+end_fill()
 
 
-scr.exitonclick()
+Screen().exitonclick()
