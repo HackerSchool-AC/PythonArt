@@ -12,6 +12,6 @@ Informationen zum Buch und weitere Beispiele sind auf der dazugehörigen Webseit
 
 Eine Liste von Funktionen, die während der des Kurses genutzt werden, sind unter [Funktionen.md](Funktion.md) zu finden.
 
-Beispiel-Programme befinden sich in dem Ordner [Code-Beispiele](/tree/master/Code-Beispiele). Der Ordner beinhaltet zur besseren Übersicht weitere Unterordner.
+Beispiel-Programme befinden sich in dem Ordner [Code-Beispiele](./tree/master/Code-Beispiele). Der Ordner beinhaltet zur besseren Übersicht weitere Unterordner.
 
 Jedes Python-Programm besteht aus einer .py-Datei und einer dazugehörigen Bild, welches zeigt, wie das Ergebnis des Python-Programms auszieht.
