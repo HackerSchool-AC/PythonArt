@@ -10,8 +10,8 @@ Informationen zum Buch und weitere Beispiele sind auf der dazugehörigen Webseit
 
 [Installation.md](Installation.md) beschreibt wie man Python und die Entwicklungsumgebung PyCharm installiert.
 
-Eine Liste von Funktionen, die während der des Kurses genutzt werden, sind unter [Funktionen.md](Funktion.md) zu finden.
+Eine Liste von Funktionen, die während der des Kurses genutzt werden, sind unter [Funktionen.md](Funktion.md) zu finden.
 
-Beispiel-Programme befinden sich in dem Ordner [Code-Beispiele](CodeBeispiele). Der Ordner beinhaltet zur besseren Übersicht weitere Unterordner.
+Beispiel-Programme befinden sich in dem Ordner [Code-Beispiele](../blob/master/CodeBeispiele). Der Ordner beinhaltet zur besseren Übersicht weitere Unterordner.
 
 Jedes Python-Programm besteht aus einer .py-Datei und einer dazugehörigen Bild, welches zeigt, wie das Ergebnis des Python-Programms auszieht.
